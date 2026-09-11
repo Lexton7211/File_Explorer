@@ -4,7 +4,7 @@ LDFLAGS = $(shell pkg-config --libs sdl2)
 
 
 TARGET = build/app
-SRCS = app.c
+SRCS = app.c display.c
 
 all: $(TARGET)
 
